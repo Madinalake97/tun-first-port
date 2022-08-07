@@ -6,6 +6,7 @@ import Javascript from '../public/assets/skills/javascript.png';
 import ReactImg from '../public/assets/skills/reactjs.png';
 import TailwindCSS from '../public/assets/skills/tailwind.png';
 import TypeScript from '../public/assets/skills/typescript.png';
+import NextJS from '../public/assets/skills/nextjs.png';
 
 const Skill = () => {
 	return (
@@ -67,12 +68,7 @@ const Skill = () => {
 					<div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
 						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
-								<Image
-									src='/../public/assets/skills/nextjs.png'
-									width='64px'
-									height='64px'
-									alt='/'
-								/>
+								<Image src={NextJS} width='64px' height='64px' alt='/' />
 							</div>
 							<div className='flex flex-col items-center justify-center'>
 								<h3>NextJS</h3>
